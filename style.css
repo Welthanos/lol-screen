@@ -1,8 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&display=swap');
+
 body {
     margin: 0;
-    height: 100vh;
-    width: 100%;
+    background-color: #000;
+}
+
+.client {
+    position: absolute;
+    width: 76%;
+    height: 90%;
+    top: 5%;
+    left: 12%;
+    display: flex;
+}
+
+.left-content {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content img {
+    width: 6rem;
+}
+
+.left-content h1 {
+    font-size: 1.2rem;
+    font-family: 'Mulish';
+    font-weight: 800;
+}
+
+.left-content .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    width: 75%;
+}
+
+.left-content form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.left-content input {
+    padding: .4rem;
+    margin-bottom: 1rem;
+}
+
+.left-content .social-media a {
+    width: 3.3rem;
+    height: 1.6rem;
+    background-color: rgb(138, 43, 226);
+    border-radius: 0.2rem;
+}
+
+.login-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(218, 59, 59);
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
+.login-button i {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.login-button:hover {
+    background-color: rgb(184, 44, 44);
+}
+
+.right-content {
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+.right-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
